@@ -1,8 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Paragraph from '../components/Paragraph'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Paragraph from '../components/paragraph';
+import Header from "../components/header";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <>
 	  <Head>
@@ -11,10 +12,7 @@ const Home: NextPage = () => {
 	  </Head>
 
 	  <div className="container mx-auto mt-24 max-w-xl">
-		  <header className="flex flex-col items-center gap-3">
-			  <h1 className="text-5xl text-teal-700">DocsCap</h1>
-              <h1 className="text-3xl">斜めに撮影した書類を簡単補正</h1>
-		  </header>
+          <Header></Header>
 
           <main className="mt-6 space-y-5">
               <Paragraph>iPadで書類を撮影したとき、真上から取らなければならないのを煩わしく感じたことはありませんか?</Paragraph>
@@ -26,5 +24,5 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home;
+export default About;
 
