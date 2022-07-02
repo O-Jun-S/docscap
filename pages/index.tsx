@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from "../components/header";
+import ImageForm from "../components/image_form";
+import Paragraph from "../components/paragraph";
 import Link from "next/link";
 
 const About: NextPage = () => {
@@ -12,7 +14,7 @@ const About: NextPage = () => {
 	  </Head>
 
 	  <div className="container mx-auto mt-24 max-w-xl">
-          <Header></Header>
+          <Header />
           <div className="flex flex-row-reverse m-6">
             <div className="mr-6">
                 <Link href="/about">
@@ -20,6 +22,9 @@ const About: NextPage = () => {
                 </Link>
             </div>
           </div>
+          <Paragraph>処理したい書類をアップロードしてください↓</Paragraph>
+          <Paragraph>4つの点を動かし、書類の四隅にそろえてください。</Paragraph>
+          <ImageForm />
 	  </div>
 	</>
   )
