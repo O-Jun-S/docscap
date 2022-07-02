@@ -23,7 +23,7 @@ const About: NextPage = () => {
 
           <div className="m-6">
               <Link href="/">
-                  <a className="text-2xl text-teal-600 underline decoration-sky-500">←Back to home</a>
+                  <a className="text-xl text-teal-600 underline decoration-sky-500">←Back to home</a>
               </Link>
           </div>
 	  </div>
