@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const Header: NextPage<Props> = () => {
+const Header: NextPage = () => {
     return (
         <>
             <header className="flex flex-col items-center gap-3">
