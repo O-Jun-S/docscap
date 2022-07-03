@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Header from "../components/header";
-import ImageForm from "../components/image_form";
-import Paragraph from "../components/paragraph";
+import Header from "../components/header.tsx";
+import ImageForm from "../components/image_form.tsx";
+import Paragraph from "../components/paragraph.tsx";
 import Link from "next/link";
 
 const About: NextPage = () => {

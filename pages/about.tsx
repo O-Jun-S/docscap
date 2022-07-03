@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from "next/link";
-import Paragraph from '../components/paragraph';
-import Header from "../components/header";
+import Paragraph from '../components/paragraph.tsx';
+import Header from "../components/header.tsx";
 
 const About: NextPage = () => {
   return (
