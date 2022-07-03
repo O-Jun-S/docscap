@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { RefObject } from "react";
 import type { NextPage } from "next";
-import Point from "./point.tsx";
+import Point from "./point";
 
 type Rect = {
     left: number;
